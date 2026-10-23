@@ -1,0 +1,82 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: gray;
+}
+
+header{
+    background:black ;
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.contact-form, .contact-details{
+       width: 45%;
+       background: #640137;
+       padding: 24px;
+       border-radius: 10px;
+      
+}
+
+.contact-form h2, .contact-details h2{
+    margin-top: 0;
+    color: grey;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button{
+    display: inline-block;
+    background-color: peachpuff;
+    color: darkgray;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover{
+    background: #FFA074;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
